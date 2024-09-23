@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Close Division - Modern web design agency specializing in responsive and SEO-optimized websites.">
+    <meta name="keywords" content="web design, responsive websites, SEO, web hosting, custom web design, Close Division">
+    <title>Close Division - Web Design Agency</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="images/logo-light.png" alt="Close Division Logo" class="light-logo">
+                    <img src="images/logo-dark.png" alt="Close Division Dark Logo" class="dark-logo" style="display: none;">
+                </a>
+            </div>
+            <!-- Hamburger Menu Icon -->
+            <div class="hamburger" id="hamburger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#our-work">Our Work</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>    
+    
+    <!--Theme Toggle Outside the nav-->
+    <div class="theme-toggle">
+        <img src="assets\moon-unscreen.gif" alt="Light Mode" class="theme-icon" id="lightMode">
+        <img src="assets\sun-unscreen.gif" alt="Dark Mode" class="theme-icon" id="darkMode" style="display: none;">
+    </div>
+        
+    <!--Hero Section-->
+    <section class="hero">
+        <img src="images/workstation-light.jpg" alt="Web Design by Close Division" class="light-hero-image">
+        <img src="images/workstation-dark.jpg" alt="Dark Theme Web Design by Close Division" class="dark-hero-image" style="display: none;">
+        <div class="hero-content">
+            <h1>Creating Modern, Responsive Websites</h1>
+            <p>Close Division specializes in crafting stunning and SEO-optimized web experiences for businesses of all sizes.</p>
+        </div>
+    </section>
+
+    <!--About Section-->
+    <section class="about">
+        <div class="about-content">
+            <img src="assets\logo-light.png" alt="About Close Division Logo" class="light-about-image">
+            <img src="assets\logo-dark.png" alt="About Close Division Dark Logo" class="dark-about-image" style="display: none;">
+            <div class="about-text">
+                <h2>About Close Division</h2>
+                <p>We are a modern web design agency specializing in crafting responsive and SEO-optimized websites that elevate your brand and enhance your online presence.</p>
+                <a href="about.html" class="find-out-more">More About Us</a>
+            </div>
+        </div>
+    </section>
+
+    <!--Services Section-->
+    <section id="services" class="services">
+        <h2>Our Services</h2>
+        <p>We offer a range of services to help you build a strong online presence.</p>
+        <img src="assets/services-light.png" alt="Our Services" class="services-image light-services-image">
+        <img src="assets/services-dark.png" alt="Our Services Dark Mode" class="services-image dark-services-image" style="display: none;">
+        <div class="services-list">
+            <div class="service-item">
+                <h3>Custom Web Design</h3>
+                <p class="service-description">Tailored website designs that reflect the unique brand identity of each client. 
+                    Responsive design to ensure optimal viewing on all devices.</p>
+            </div>
+            <div class="service-item">
+                <h3>Search Engine Optimization (SEO)</h3>
+                <p class="service-description">On-page and off-page SEO strategies to improve website visibility.
+                    Keyword research, content optimization, and backlink building.</p>
+            </div>
+            <div class="service-item">
+                <h3>Content Management Systems (CMS)</h3>
+                <p class="service-description">Implementation of popular CMS platforms like WordPress, Joomla, and Drupal.
+                    Custom CMS development for specific client needs.</p>
+            </div>
+            
+            <div class="service-item">
+                <h3>Hosting & Domain Registration</h3>
+                <p class="service-description">Ongoing website updates, security monitoring, and performance optimization.
+                    Technical support for troubleshooting and resolving issues.</p>
+            </div>
+            <div class="service-item">
+                <h3>E-commerce Solutions</h3>
+                <p class="service-description">Development of online stores with user-friendly interfaces.
+                    Integration of payment gateways and shopping cart functionalities.</p>
+            </div>
+            <div class="service-item">
+                <h3>Digital Marketing</h3>
+                <p class="service-description">Comprehensive digital marketing strategies including PPC, email marketing, and content marketing.
+                    Analytics and reporting to measure campaign effectiveness.</p>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
