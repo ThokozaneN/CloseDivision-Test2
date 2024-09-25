@@ -7,13 +7,14 @@
     <meta name="keywords" content="web design, responsive websites, SEO, web hosting, custom web design, Close Division">
     <title>Close Division - Web Design Agency</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="assets\icon.png" type="image/png">
 </head>
 <body>
     <!-- Navigation -->
     <header>
         <nav class="navbar">
             <div class="logo">
-                <a href="index.html">
+                <a href="#hero">
                     <img src="images/logo-light.png" alt="Close Division Logo" class="light-logo">
                     <img src="images/logo-dark.png" alt="Close Division Dark Logo" class="dark-logo" style="display: none;">
                 </a>
@@ -25,9 +26,9 @@
                 <div class="line"></div>
             </div>
             <ul class="nav-links" id="nav-links">
-                <li><a href="index.html">Home</a></li>
+                <li><a href="#hero">Home</a></li>
                 <li><a href="#services">Services</a></li>
-                <li><a href="#our-work">Our Work</a></li>
+                <li><a href="#solutions">Solutions</a></li>
                 <li><a href="#about">About Us</a></li>
                 <li><a href="#contact">Contact Us</a></li>
             </ul>
@@ -41,11 +42,11 @@
     </div>
         
     <!--Hero Section-->
-    <section class="hero">
-        <img src="images/workstation-light.jpg" alt="Web Design by Close Division" class="light-hero-image">
-        <img src="images/workstation-dark.jpg" alt="Dark Theme Web Design by Close Division" class="dark-hero-image" style="display: none;">
+    <section id="hero" class="hero">
+        <img src="images\workstation-light.jpg" alt="Web Design by Close Division" class="light-hero-image">
+        <img src="images\workstation-dark.jpg" alt="Dark Theme Web Design by Close Division" class="dark-hero-image" style="display: none;">
         <div class="hero-content">
-            <h1>Creating Modern, Responsive Websites</h1>
+            <h1>Create. Innovate. Inspire. Achieve</h1>
             <p>Close Division specializes in crafting stunning and SEO-optimized web experiences for businesses of all sizes.</p>
         </div>
     </section>
@@ -102,7 +103,77 @@
                     Analytics and reporting to measure campaign effectiveness.</p>
             </div>
         </div>
+        <div class="quote-btn-container">
+            <a href="quote.html" class="quote-btn">Request a Quote</a>
+        </div>
     </section>
+    <!-- Business Solutions Section -->
+    <section id="solutions">
+        <div class="packages-container">
+            <h2>Business Solutions</h2>
+
+            <!-- Toggle Switch for fee type -->
+            <div class="fee-toggle">
+                <label class="switch">
+                    <input type="checkbox" id="feeTypeToggle">
+                    <span class="slider"></span>
+                </label>
+                <span class="fee-type-label">Monthly Subscription</span>
+            </div>
+
+
+            <div class="package-list">
+                <!--Basic Package-->
+                <div class="package-item">
+                    <h3>Basic</h3>
+                    <ul>
+                        <li>Custom Web Design (4 pages)</li>
+                        <li>Responsive Design</li>
+                        <li>Basic SEO Optimization</li>
+                        <li>1 Month Free Maintenance</li>
+                        <li>Basic Hosting</li>
+                        <li>1 Domain Name Purchase</li>
+                    </ul>
+                    <div class="price" data-monthly="R220pm" data-once="From R2500">From R2500</div>
+                    <button class="btn">Choose Basic</button>
+                </div>
+
+                <!--Standard Package-->
+                <div class="package-item">
+                    <h3>Standard</h3>
+                    <ul>
+                        <li>Custom Web Design (6 pages)</li>
+                        <li>Responsive Design</li>
+                        <li>Advanced SEO Optimization</li>
+                        <li>Content Management System</li>
+                        <li>2 Months Free Maintenance</li>
+                        <li>Standard Hosting</li>
+                        <li>Domain Name Purchase</li>
+                    </ul>
+                    <div class="price" data-monthly="R310pm" data-once="From R3700">From R3700</div>
+                    <button class="btn">Choose Standard</button>
+                </div>
+
+                <!--Premium Package-->
+                <div class="package-item">
+                    <h3>Premium</h3>
+                    <ul>
+                        <li>All Standard Services (10 page)</li>
+                        <li>Digital Marketing</li>
+                        <li>3 Months Free Maintenance</li>
+                        <li>Priority Support</li>
+                        <li>Premium Hosting</li>
+                        <li>Email Signature</li>
+                        <li>Domain Name Purchase</li>
+                        <li>Premium E-commerce Setup</li>
+                    </ul>
+                    <div class="price" data-monthly="R375pm" data-once="From R4500">From R4500</div>
+                    <button class="btn">Choose Premium</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
 
     <script src="script.js"></script>
 </body>
