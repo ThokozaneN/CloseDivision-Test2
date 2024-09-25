@@ -86,3 +86,21 @@ feeToggle.addEventListener('change', function () {
         }
     });
 });
+
+const lightLogos = document.querySelectorAll('.light-logo');
+const darkLogos = document.querySelectorAll('.dark-logo');
+
+function switchTheme() {
+    if (document.body.classList.contains('dark-mode')) {
+        lightLogos.forEach(logo => logo.style.display = 'none');
+        darkLogos.forEach(logo => logo.style.display = 'block');
+    } else {
+        lightLogos.forEach(logo => logo.style.display = 'block');
+        darkLogos.forEach(logo => logo.style.display = 'none');
+    }
+}
+
+themeToggleButton.addEventListener('click', () => {
+    document.body.classList.toggle('dark-mode');
+    switchTheme();
+});
