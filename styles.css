@@ -802,8 +802,8 @@ body.dark-mode .testimonial-item {
 }
 
 .testimonial-image {
-    width: 100px;
-    height: 100px;
+    width: 70px;
+    height: 70px;
     border-radius: 50%;
     margin-bottom: 10px;
 }
@@ -829,7 +829,6 @@ body.dark-mode .testimonial-text p {
     color: #ddd;
 }
 
-/* Footer with Google logo and text */
 .testimonial-footer {
     display: flex;
     align-items: center;
@@ -838,19 +837,6 @@ body.dark-mode .testimonial-text p {
 }
 
 .google-logo {
-    width: 20px;
-}
-
-.google-text {
-    font-size: 0.9rem;
-    color: #555;
-}
-
-body.dark-mode .google-text {
-    color: #ddd;
-}
-
-body.dark-mode .google-logo {
-    display: none;
+    width: 50px;
 }
 
