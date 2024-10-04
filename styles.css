@@ -769,5 +769,88 @@ body.dark-mode .clients-section h2 {
     color: #ffffff;
 }
 
+/*Testimonials Section*/
+.testimonials-section {
+    padding: 50px 20px;
+    background-color: inherit;
+    text-align: center;
+}
 
+.testimonials-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.testimonial-item {
+    width: 300px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.testimonial-item:hover {
+    transform: translateY(-10px);
+}
+
+body.dark-mode .testimonial-item {
+    background-color: #333;
+    color: #fff;
+}
+
+.testimonial-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.testimonial-text h3 {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+}
+
+.stars {
+    color: #f39c12; /* Star color (gold) */
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.testimonial-text p {
+    font-size: 1rem;
+    margin-bottom: 15px;
+    color: #555;
+}
+
+body.dark-mode .testimonial-text p {
+    color: #ddd;
+}
+
+/* Footer with Google logo and text */
+.testimonial-footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.google-logo {
+    width: 20px;
+}
+
+.google-text {
+    font-size: 0.9rem;
+    color: #555;
+}
+
+body.dark-mode .google-text {
+    color: #ddd;
+}
+
+body.dark-mode .google-logo {
+    display: none;
+}
 
