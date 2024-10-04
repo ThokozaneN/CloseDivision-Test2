@@ -757,10 +757,10 @@ body.dark-mode .carousel-logo {
     }
 }
 
-/* Center the section title */
+/*section title*/
 .clients-section h2 {
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
     font-size: 2rem;
 }
 
@@ -769,7 +769,7 @@ body.dark-mode .clients-section h2 {
     color: #ffffff;
 }
 
-/*Testimonials Section*/
+
 .testimonials-section {
     padding: 50px 20px;
     background-color: inherit;
