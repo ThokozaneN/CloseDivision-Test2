@@ -374,7 +374,7 @@ body.dark-mode .about-text p {
 }
 
 .services h2 {
-    font-size: 1.8rem;
+    font-size: 2rem;
     margin-bottom: 20px;
 }
 
@@ -512,7 +512,7 @@ body.dark-mode .dark-services-image {
 }
 
 #solutions h2 {
-    font-size: 1.8rem;
+    font-size: 2rem;
     margin-bottom: 20px;
 }
 
@@ -708,7 +708,7 @@ body.dark-mode .slider {
 
 /* Client Carousel Section */
 .clients-section h2 {
-    font-size: 1.8rem;
+    font-size: 2rem;
 }
 body.dark-mode .clients-section h2 {
     color: #fff;
@@ -768,7 +768,7 @@ body.dark-mode .carousel-logo {
 .testimonials-section h2 {
     text-align: center;
     margin-bottom: 50px;
-    font-size: 1.5rem;
+    font-size: 2rem;
 }
 
 
