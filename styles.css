@@ -274,7 +274,8 @@ body.dark-mode .nav-links a {
 }
 
 .about-text h2 {
-    font-size: 2rem;
+    font-size: 2
+        1.8rem;
     margin-bottom: 10px;
 }
 
@@ -373,7 +374,7 @@ body.dark-mode .about-text p {
 }
 
 .services h2 {
-    font-size: 2.5rem;
+    font-size: 1.8rem;
     margin-bottom: 20px;
 }
 
@@ -511,7 +512,7 @@ body.dark-mode .dark-services-image {
 }
 
 #solutions h2 {
-    font-size: 2.5rem;
+    font-size: 1.8rem;
     margin-bottom: 20px;
 }
 
@@ -707,7 +708,7 @@ body.dark-mode .slider {
 
 /* Client Carousel Section */
 .clients-section h2 {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
 }
 body.dark-mode .clients-section h2 {
     color: #fff;
