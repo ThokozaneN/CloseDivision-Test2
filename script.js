@@ -24,6 +24,8 @@ themeToggle.addEventListener('click', () => {
     const darkHeroImage = document.querySelector('.dark-hero-image');
     const lightAboutImage = document.querySelector('.light-about-image');
     const darkAboutImage = document.querySelector('.dark-about-image');
+    const lightFooter = document.querySelector('.footer-logo light-footer-logo');
+    const darkFooterLogo = document.querySelector('.footer-logo dark-footer-logo');
 
     if (body.classList.contains('dark-mode')) {
         lightLogo.style.display = 'none';
