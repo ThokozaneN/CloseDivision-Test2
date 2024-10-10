@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Close Division - Modern web design agency specializing in responsive and SEO-optimized websites.">
+    <meta name="keywords" content="web design, responsive websites, SEO, web hosting, custom web design, Close Division">
+    <title>Request a Quote - Close Division</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="assets\icon.png" type="image/png">
+</head>
+<body>
+    <!-- Navigation -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="images/logo-light.png" alt="Close Division Logo" class="light-logo">
+                    <img src="images/logo-dark.png" alt="Close Division Dark Logo" class="dark-logo" style="display: none;">
+                </a>
+            </div>
+            <!-- Hamburger Menu Icon -->
+            <div class="hamburger" id="hamburger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html#services">Services</a></li>
+                <li><a href="index.html#solutions">Solutions</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>    
+    
+    <!--Theme Toggle Outside the nav-->
+    <div class="theme-toggle">
+        <img src="assets\moon-unscreen.gif" alt="Light Mode" class="theme-icon" id="lightMode">
+        <img src="assets\sun-unscreen.gif" alt="Dark Mode" class="theme-icon" id="darkMode" style="display: none;">
+    </div>
+
+    <section class="quote-form">
+        <video autoplay muted loop id="quote-bg-video">
+            <source src="assets\4974884-hd_1920_1080_25fps.mp4" type="video/mp4">
+            Your browser does not support HTML5 video.
+        </video>
+    
+        <div class="quote-form-content">
+            <h1>Request a Quote</h1>
+            <form action="mailto:thiisgeek@gmail.com" method="POST" enctype="text/plain">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" name="name" required>
+    
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+    
+                <label for="services">Select Services (you can select multiple)</label>
+                <select id="services" name="services" multiple required>
+                    <option value="Custom Web Design">Custom Web Design</option>
+                    <option value="SEO">Search Engine Optimization (SEO)</option>
+                    <option value="CMS">Content Management Systems (CMS)</option>
+                    <option value="Hosting">Hosting & Domain Registration</option>
+                    <option value="E-commerce">E-commerce Solutions</option>
+                    <option value="Digital Marketing">Digital Marketing</option>
+                </select>
+    
+                <label for="requestType">Quote Type</label>
+                <div class="quote-options">
+                    <input type="radio" id="service-quote" name="quoteType" value="singular" checked>
+                    <label for="service-quote">Singular Services</label>
+    
+                    <input type="radio" id="package-quote" name="quoteType" value="package">
+                    <label for="package-quote">Business Packages</label>
+                </div>
+    
+                <label for="message">Additional Information</label>
+                <textarea id="message" name="message" placeholder="Please provide any specific details or requirements..."></textarea>
+    
+                <button type="submit">Submit Quote Request</button>
+            </form>
+        </div>
+    </section>
+    
