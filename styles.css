@@ -274,8 +274,7 @@ body.dark-mode .nav-links a {
 }
 
 .about-text h2 {
-    font-size: 2
-        1.8rem;
+    font-size: 2rem;
     margin-bottom: 10px;
 }
 
@@ -374,7 +373,7 @@ body.dark-mode .about-text p {
 }
 
 .services h2 {
-    font-size: 2rem;
+    font-size: 2.5rem;
     margin-bottom: 20px;
 }
 
@@ -512,7 +511,7 @@ body.dark-mode .dark-services-image {
 }
 
 #solutions h2 {
-    font-size: 2rem;
+    font-size: 2.5rem;
     margin-bottom: 20px;
 }
 
@@ -707,12 +706,6 @@ body.dark-mode .slider {
 }
 
 /* Client Carousel Section */
-.clients-section h2 {
-    font-size: 2rem;
-}
-body.dark-mode .clients-section h2 {
-    color: #fff;
-}
 .clients-section {
     display: flex;
     flex-direction: column;
@@ -764,7 +757,19 @@ body.dark-mode .carousel-logo {
     }
 }
 
-/*testimonials section title*/
+/* Center the section title */
+.clients-section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2rem;
+}
+
+
+body.dark-mode .clients-section h2 {
+    color: #ffffff;
+}
+
+/*Testimonials Section*/
 .testimonials-section h2 {
     text-align: center;
     margin-bottom: 50px;
@@ -847,45 +852,39 @@ body.dark-mode .testimonial-text p {
     width: 50px;
 }
 
-/* Footer Styles */
+
+/*Footer*/
 footer {
-    background-color: #333;
-    color: #fff;
-    padding: 40px 20px;
+    background-color: inherit;
+    color: #000000;
+    padding: 40px 0;
     text-align: center;
 }
 
 .footer-container {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: flex-start;
-    max-width: 1200px;
-    margin: auto;
+    flex-wrap: wrap;
 }
 
-.footer-logo-contact, .footer-nav, .newsletter, .social-media {
+.footer-logo-contact, .footer-nav, .footer-newsletter {
     flex: 1;
     min-width: 250px;
-    margin: 20px;
-}
-
-.footer-logo-contact img {
-    max-width: 200px;
     margin-bottom: 20px;
 }
 
-.contact-details {
-    list-style: none;
-    padding: 0;
+.footer-logo {
+    max-width: 100px;
+    margin-bottom: 20px;
 }
 
 .contact-details li {
-    margin-bottom: 10px;
+    list-style: none;
+    margin: 5px 0;
 }
 
-.footer-nav h4, .newsletter h4, .social-media h4 {
-    font-size: 1.2rem;
+.footer-nav h4, .footer-newsletter h4 {
     margin-bottom: 15px;
 }
 
@@ -895,131 +894,90 @@ footer {
 }
 
 .footer-nav ul li {
-    margin-bottom: 10px;
+    margin: 10px 0;
 }
 
 .footer-nav ul li a {
-    color: #fff;
+    color: #000000;
     text-decoration: none;
-    transition: color 0.3s ease;
+    transition: color 0.3s;
 }
 
 .footer-nav ul li a:hover {
     color: #007bff;
 }
 
-.newsletter form {
+.newsletter-form {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.newsletter input[type="email"] {
+.newsletter-form input {
     padding: 10px;
-    width: 100%;
-    max-width: 300px;
-    margin-bottom: 15px;
     border: none;
     border-radius: 5px;
+    margin-bottom: 10px;
+    width: 80%;
+    max-width: 300px;
 }
 
-.newsletter button.subscribe-btn {
+.newsletter-form button {
     padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
     background-color: #007bff;
     color: #fff;
-    border: none;
-    border-radius: 5px;
     cursor: pointer;
-    transition: background-color 0.3s ease;
+    transition: background-color 0.3s;
 }
 
-.newsletter button.subscribe-btn:hover {
+.newsletter-form button:hover {
     background-color: #0056b3;
 }
 
-.social-media ul {
+.footer-bottom {
+    background-color: inherit;
+    padding: 10px 0;
     display: flex;
     justify-content: center;
-    padding: 0;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
-.social-media ul li {
-    margin: 0 10px;
-}
-
-.social-media ul li img {
-    width: 30px;
-    height: 30px;
-}
-
-footer p {
-    font-size: 0.9rem;
-    margin-top: 20px;
-}
-
-/* FAQ Section */
-#faq {
-    background-color: #f7f7f7;
-    padding: 40px 20px;
-}
-
-.faq-container {
-    max-width: 800px;
-    margin: auto;
-}
-
-.faq-header {
-    text-align: center;
-    margin-bottom: 30px;
-}
-
-.faq-header h2 {
-    font-size: 2rem;
-    color: #333;
-}
-
-.faq-item {
-    background-color: #fff;
-    border-radius: 5px;
-    margin-bottom: 20px;
-    padding: 15px;
-    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
-}
-
-.faq-item h3 {
-    font-size: 1.2rem;
+.footer-bottom p {
     margin: 0;
+}
+
+.social-icons a {
+    margin-left: 10px;
+    color: #000000;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.social-icons img {
+    max-width: 20px;
+}
+
+.social-icons a:hover {
     color: #007bff;
-    cursor: pointer;
 }
 
-.faq-item p {
-    font-size: 1rem;
-    color: #333;
-    display: none;
-    margin-top: 10px;
+body.dark-mode footer {
+    background-color: #111;
+    color: #ccc;
 }
 
-.faq-item.active p {
-    display: block;
+body.dark-mode .footer-nav ul li a {
+    color: #ccc;
 }
 
-/* Mobile Styles */
-@media (max-width: 768px) {
-    .footer-container {
-        flex-direction: column;
-        align-items: center;
-    }
+body.dark-mode .footer-nav ul li a:hover, body.dark-mode .social-icons a:hover {
+    color: #007bff;
+}
 
-    .footer-nav ul {
-        text-align: center;
-    }
-
-    .footer-nav ul li {
-        margin-bottom: 8px;
-    }
-
-    .faq-item h3 {
-        font-size: 1.1rem;
-    }
+body.dark-mode .newsletter-form input, body.dark-mode .newsletter-form button {
+    background-color: #333;
+    color: #ccc;
 }
